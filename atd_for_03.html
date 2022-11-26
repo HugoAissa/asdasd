@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 03</title>
+</head>
+
+<body>
+    
+    <h1>Exercicio 03</h1>
+    <div id="resultado"></div>
+    <div id="resultado2"></div>
+    <div id="resultado3"></div>
+    <div id="resultado4"></div>
+    <div id="resultado5"></div>
+    <div id="resultado6"></div>
+
+    <script>
+        // não entendi acerto a atd 3
+        
+        let resul = ""
+        let resul2 = ""
+        let resul3 = ""
+        let resul4 = ""
+        let resul5 = ""
+        let resul6 = ""
+        for (let a = 1; a <= 10; a++) {
+            for (let b = 1; b <= 10; b++) {
+                if (calc =3 & a == 1 & b == 2) {
+                    calc = 3
+                    resul += calc + " (soma do numero " + a + " com o numero " + b + ")" + "</br>"
+                }
+                calc = Number(a + b)
+
+                console.log(resul5)
+ 
+                if (calc == 6 & b == 3){
+                    resul2 += calc + " (soma parcial com o número "+ b + ")"
+                }
+                
+                if (calc == 10 & b == 4) {
+                    resul3 += calc + " (soma parcial com o número "+ b + ")"
+                    
+                }
+
+                if (calc = a & b == 10){
+                    calc = 36
+                    resul4  = calc + " (soma parcial com o número "+ "...." + ")"
+                }
+
+                if (calc = a & b == 10){
+                    calc = 55
+                    resul5 = calc + " (soma parcial com o número "+ b + ")"
+                    resul6 = "Soma total <-" + calc
+                }                
+            }
+        }
+        document.getElementById("resultado").innerHTML =  resul
+        document.getElementById("resultado2").innerHTML = resul2
+        document.getElementById("resultado3").innerHTML = resul3
+        document.getElementById("resultado4").innerHTML = resul4
+        document.getElementById("resultado5").innerHTML = resul5
+        document.getElementById("resultado6").innerHTML = resul6
+        
+    </script>
+
+</body>
+
+</html>
